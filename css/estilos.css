@@ -1,0 +1,78 @@
+@charset "UTF-8";
+html {
+    font-size: 13px;
+}
+
+body {
+    color: #44484a;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.votos a {
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.votos a:hover {
+    color: #00BFFF;
+}
+
+a i:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.control a {
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 25px;
+    text-align: center;
+}
+
+.control a:hover {
+    color: #00BFFF;
+}
+
+.notificaciones a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.notificaciones i {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+a i:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.sombra {
+    -webkit-box-shadow: 0px 3px 11px 3px rgba(173, 166, 173, 1);
+    -moz-box-shadow: 0px 3px 11px 3px rgba(173, 166, 173, 1);
+    box-shadow: 0px 3px 11px 3px rgba(173, 166, 173, 1);
+}
+
+.singularNotificacion {
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: left;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
